@@ -18,9 +18,9 @@ title: Hold your temper
 subtitle: "A card game"
 url: "https://openstate.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: ""
+baseurl: "/hold-your-temper"
 cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+logo: "/img/logo.png"
 
 # Build settings
 markdown: kramdown
