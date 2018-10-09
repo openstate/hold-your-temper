@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta content="Gmail is beschikbaar op al je apparaten: Android, iOS en pc. Je kunt berichten sorteren, samenwerken of een vriend bellen zonder je inbox te verlaten."
+  name="description">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.google.com/gmail/about/" />
+<meta property="og:title" content="Gmail: gratis opslag en e-mail van Google" />
+<meta property="og:image" content="//www.google.com/gmail/about/static/images/social.jpg" />
+<meta property="og:site_name" content="Gmail: gratis opslag en e-mail van Google" />
+<link href="https://www.google.com/intl/nl/gmail/about/" rel="canonical">
+
+<head>
+  <link href="/gmail/about/images/favicon.ico" rel="icon" type="image/ico">
+  <title>Gmail: gratis opslag en e-mail van Google</title>
+  <link rel="stylesheet" href="/gmail/about/static/css/main.min.css" />
+ <style>
+
+.feature-highlight-content__desktop {
+  background-image: url(/intl/nl_ALL/gmail/about/bettercompose.jpg)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .feature-highlight-content__desktop {
+    background-image: url(/intl/nl_ALL/gmail/about/bettercompose_2x.jpg)
+  }
+}
+
+.hero_home__image {
+  background-image: url(/intl/nl_ALL/gmail/about/home-hero_2x.jpg)
+}
+
+.hero_for-work__image {
+  background-image: url(/intl/nl_ALL/gmail/about/for-work-hero_2x.jpg)
+}
+
+@media only screen and (max-width: 777px) {
+  .hero_home__image {
+    background-image: url(/intl/nl_ALL/gmail/about/hero-mobile.jpg)
+  }
+}
+
+@media only screen and (max-width: 777px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 777px) and (min-resolution: 2dppx) {
+  .hero_home__image {
+    background-image: url(/intl/nl_ALL/gmail/about/hero-mobile_2x.jpg)
+  }
+}
+
+.inbox-action__image {
+  background-image: url(/intl/nl_ALL/gmail/about/action-4_2x.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .inbox-action__image {
+    background-image: url(/intl/nl_ALL/gmail/about/action-4_2x.png)
+  }
+}
+
+@media only screen and (max-width: 777px) {
+  .inbox-action__image {
+    background-image: url(/intl/nl_ALL/gmail/about/take-action-mobile_2x.jpg)
+  }
+}
+
+.themes-for-gmail .theme1 {
+  background-image: url(/intl/nl_ALL/gmail/about/themes1.jpg)
+}
+
+.themes-for-gmail .theme2 {
+  background-image: url(/intl/nl_ALL/gmail/about/themes2.jpg)
+}
+
+.themes-for-gmail .theme3 {
+  background-image: url(/intl/nl_ALL/gmail/about/themes3.jpg)
+}
+
+.themes-for-gmail .theme4 {
+  background-image: url(/intl/nl_ALL/gmail/about/themes4.jpg)
+}
+
+@media (max-width: 777px) {
+  .attachments-for-gmail__screen-feature-attachments {
+    background-image: url(/intl/nl_ALL/gmail/about/attachments-tablet.png)
+  }
+}
+
+.attachments-for-gmail__screen-feature-attachments {
+  background-image: url(/intl/nl_ALL/gmail/about/attachments-tablet_2x.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .attachments-for-gmail__screen-feature-attachments {
+    background-image: url(/intl/nl_ALL/gmail/about/attachments-tablet_2x.png)
+  }
+}
+
+.inbox-tabs-for-gmail__image {
+  background-image: url(/intl/nl_ALL/gmail/about/inboxtabs.gif)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .inbox-tabs-for-gmail__image {
+    background-image: url(/intl/nl_ALL/gmail/about/inboxtabs_2x.jpg)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(1) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/branded.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(1) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/branded_2x.png)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(2) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/workfromnewhere.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(2) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/workfromnewhere_2x.png)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(3) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/techsupport.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(3) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/techsupport_2x.png)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(4) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/hangout.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(4) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/hangout_2x.png)
+  }
+}
+
+.hero_for-work__image {
+  background-image: url(/intl/nl_ALL/gmail/about/for-work-hero.jpg)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .hero_for-work__image {
+    background-image: url(/intl/nl_ALL/gmail/about/for-work-hero_2x.jpg)
+  }
+}
+
+.gmail-devices__images-desktop {
+  background-image: url(/intl/nl_ALL/gmail/about/any-device.jpg)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .gmail-devices__images-desktop {
+    background-image: url(/intl/nl_ALL/gmail/about/any-device_2x.jpg)
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .gmail-devices__copy-play {
+    background-image: url(/intl/nl_ALL/gmail/about/playstore.png)
+  }
+  .gmail-devices__copy-app {
+    background-image: url(/intl/nl_ALL/gmail/about/appstore.svg)
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .gmail-devices__images-mobile {
+    background-image: url(/intl/nl_ALL/gmail/about/any-device-mobile.jpg)
+  }
+}
+
+@media only screen and (max-width: 777px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 777px) and (min-resolution: 2dppx) {
+  .gmail-devices__images-mobile {
+    background-image: url(/intl/nl_ALL/gmail/about/any-device-mobile_2x.jpg)
+  }
+}
+
+</style> 
+  <script src="//www.google.com/js/google.js"></script>
+  <script>
+    new gweb.analytics.AutoTrack({ profile: "UA-992684-1" });
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "brand": "Google Inc.",
+      "name": "Gmail",
+      "description": "Gmail is available across all your devices Android, iOS, and desktop devices. Sort, collaborate or call a friend without leaving your inbox.",
+      "url": "https://www.google.com/gmail/",
+      "logo": "https://www.google.com/images/icons/product/googlemail-128.png",
+      "sameAs": [
+        "https://twitter.com/gmail",
+        "https://plus.google.com/+Gmail",
+        "https://gmail.googleblog.com/",
+        "https://www.youtube.com/channel/UCbnagt1TEDo9U0yihgKNJ0g"
+      ]
+    }
+  </script>
+</head>
+
+<body class="home ltr">
+<nav class="gmail-nav standard scrolled loaded" data-ng-controller="NavController as navCtrl">
+  <a class="gmail-nav__home-link" href="/intl/nl/gmail/about/"><div class="gmail-nav__logo gmail-logo" ng-click="navCtrl.trackNavClick('Navigation', 'home')">Gmail</div></a>
+  <div class="gmail-nav__nav-links-wrap">
+      <a
+        class="gmail-nav__nav-link gmail-nav__nav-link__for-work"
+        ng-click="navCtrl.trackNavClick('Navigation', 'for work')"
+        data-g-label="Voor werk"        href="/intl/nl/gmail/about/for-work/"
+        tabindex="3">Voor werk</a>
+      <a
+        class="gmail-nav__nav-link gmail-nav__nav-link__sign-in"
+        ng-click="navCtrl.trackNavClick('Navigation', 'sign in')"
+        data-g-label="Sign in"        href="https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/"
+        rel="nofollow"
+        tabindex="1">Inloggen</a>
+      <a
+        class="gmail-nav__nav-link gmail-nav__nav-link__create-account"
+        ng-click="navCtrl.trackNavClick('Create Account', 'desktop')"
+        data-g-label="Create an account button"        href="https://accounts.google.com/SignUp?service=mail&continue=https://mail.google.com/mail/?pc=topnav-about-en"
+        target="_blank"
+        rel="nofollow"
+        tabindex="2">Een account maken</a>
+      <a
+        class="gmail-nav__nav-link gmail-nav__nav-link__get-gmail"
+        ng-click="navCtrl.trackNavClick('Create Account', 'mobile')"
+        data-g-label="Create an account button"        href="https://accounts.google.com/SignUp?service=mail&continue=https://mail.google.com/mail/?pc=topnav-about-en"
+        target="_blank"
+        data-page-location="web_about-bar"
+        rel="nofollow"
+        tabindex="2">Gmail downloaden</a>
+  </div>
+</nav>
+  <main>
+<section ng-controller="HomeController as homeCtrl" ng-class="{heroLoaded: homeCtrl.heroAssetsLoaded, loaded: homeCtrl.assetsLoaded, initialized: homeCtrl.initialized}" ng-init="homeCtrl.initialized = true">
+  <div data-step-scroller></div>
+
+  <div class="hero_home__wrap" data-full-screen data-hoffset="53">
+    <div class="hero__image hero_home__image scroll-target"></div>
+    <div class="hero_home__copy">
+      <h1>Het gemak en de eenvoud van Gmail, op al je apparaten</h1>
+      <a class="hero_home__link__desktop" data-g-label="Get Gmail" href="https://accounts.google.com/SignUp?service=mail&continue=http%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dcarousel-about-en" ng-click="homeCtrl.trackCreateAccount('desktop')" rel="nofollow" target="_blank">EEN ACCOUNT MAKEN</a>
+      <a class="hero_home__link__mobile" data-page-location="web_about-hero" data-g-label="Get Gmail" href="https://accounts.google.com/SignUp?service=mail&continue=http%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dcarousel-about-en" ng-click="homeCtrl.trackCreateAccount('mobile')" rel="nofollow" target="_blank">Gmail downloaden</a>
+    </div>
+  </div>
+<script type="text/ng-template" id="step-scroller.html">
+<div class="step-scroller">
+  <div class="dot" ng-click="scrollClick()" ng-class="{boost: (nextCount() === 0 && allLoaded()), loaded: allLoaded()}">
+    <i id="scroll-caret" class="caret" ng-class="{open: nextCount() === scrollTargetCount() - 1, closed: nextCount() !== scrollTargetCount() - 1}">&nbsp;</i>
+  </div>
+</div></script>  <section class="scroll-target  flex-container inbox-tabs-for-gmail">
+    <div class="inbox-tabs-for-gmail__copy">
+      <div class="inbox-tabs-for-gmail__title">Maak kennis met je <br> nieuwe inbox</div>
+      <div class="mobile"><pre>Met de nieuwe aanpasbare tabbladen houd je zelf de controle over je e-mailweergave, zodat je snel ziet wat nieuw is en kunt bepalen welke berichten je wilt lezen en wanneer. </pre></div>
+      <div class="desktop"><pre>Met de nieuwe aanpasbare tabbladen houd je zelf de controle over je e-mailweergave, zodat je snel ziet wat nieuw is en kunt bepalen welke berichten je wilt lezen en wanneer. </pre></div>
+    </div>
+    <div class="inbox-tabs-for-gmail__image-box">
+      <div class="inbox-tabs-for-gmail__image">
+        <img src="/intl/nl_ALL/gmail/about/inboxtabs_2x.jpg" alt="Nieuwe inbox">
+      </div>
+    </div>
+  </section>
+
+  <section class="scroll-target flex-container">
+    <div class="gmail-devices flex-container__content">
+      <div class="gmail-devices__copy">
+        <h2>Gebruik Gmail op elk apparaat</h2>
+        <div class="mobile"><pre>Het gemak en de eenvoud van Gmail, waar je ook bent </pre></div>
+        <div class="desktop"><pre>Het gemak en de eenvoud van Gmail, waar je ook bent </pre></div>
+        <span>
+          <a
+            id="gmail-devices-send-button"
+            class="gmail-devices__copy-send get-custom-for-gmail-btn"
+            href="https://get.google.com/apptips/apps/#!/recommended?d2m=7104395"
+            ng-click="homeCtrl.trackDownloadMobileApp('send to phone')">
+            Send the Gmail app to your phone
+          </a>
+          <a
+            id="gmail-devices-play-button"
+            class="gmail-devices__copy-play"
+            href="https://play.google.com/store/apps/details?id=com.google.android.gm&referrer=utm_source%3Dweb_about"
+            target="_blank"
+            data-g-action="Download android app"
+            data-g-event="Anywhere"
+            data-g-label="mobile.html"
+            ng-click="homeCtrl.trackDownloadMobileApp('play store')">
+            <img alt="Android-app downloaden" src="/intl/nl_ALL/gmail/about/playstore.png" width="168" height="50">
+          </a>
+          <a
+            id="gmail-devices-appstore-button"
+            class="gmail-devices__copy-app"
+            href="https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=web_about-badge&mt=8"
+            target="_blank"
+            data-g-action="Download iOS app"
+            data-g-event="Anywhere"
+            data-g-label="mobile.html"
+            ng-click="homeCtrl.trackDownloadMobileApp('app store')">
+            <img alt="iOS-app downloaden" src="/intl/nl_ALL/gmail/about/appstore.svg" width="168" height="50">
+          </a>
+        </span>
+      </div>
+      <div class="gmail-devices__images-desktop">
+        <img src="/intl/nl_ALL/gmail/about/any-device.jpg" alt="Al je apparaten">
+      </div>
+      <div class="gmail-devices__images-mobile">
+        <img src="/intl/nl_ALL/gmail/about/any-device-mobile.jpg" alt="Al je apparaten">
+      </div>
+    </div>
+  </section>
+
+  <section class="scroll-target">
+    <div class="attachments-for-gmail">
+      <div class="attachments-for-gmail__copy">
+        <div class="attachments-for-gmail__copy-right">
+          <div class="attachments-for-gmail__copy-title">Bijlagen onmiddellijk<br>bekijken</div>
+          <div class="attachments-for-gmail__copy-desc">
+            <div class="mobile"><pre>Bekijk bestanden zonder Gmail te verlaten. Je kunt bijlagen zelfs rechtstreeks opslaan op Drive om ze op één veilige locatie te organiseren en te delen. </pre></div>
+            <div class="desktop"><pre>Bekijk bestanden zonder Gmail te verlaten. Je kunt bijlagen zelfs rechtstreeks opslaan op Drive om ze op één veilige locatie te organiseren en te delen. </pre></div>
+          </div>
+        </div>
+      </div>
+      <div class="attachments-for-gmail__screen">
+        <div class="attachments-for-gmail__screen-feature-attachments">
+          <img src="/intl/nl_ALL/gmail/about/attachments-tablet.png" alt="Bijlagen onmiddellijk bekijken">
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </section>
+
+  <section class="scroll-target">
+    <div class="themes-for-gmail__desc">
+      <h2>Aangepaste thema's</h2>
+      <div class="mobile"><pre>Het aantal thema's is gestegen van 35 naar… oneindig. Selecteer je eigen afbeelding en gebruik deze als aangepast thema of kies uit een selectie foto's. </pre></div>
+      <div class="desktop"><pre>Het aantal thema's is gestegen van 35 naar… oneindig. Selecteer je eigen afbeelding en gebruik deze als aangepast thema of kies uit een selectie foto's. </pre></div>
+    </div>
+    <div class="themes-for-gmail">
+      <div class="themes-for-gmail__slideshow">
+        <img ng-src="/intl/nl_ALL/gmail/about/themes1.jpg" class="theme1 themes-for-gmail__slideshow__imgs" alt="Aangepaste thema's" />
+        <img ng-src="/intl/nl_ALL/gmail/about/themes2.jpg" class="theme2 themes-for-gmail__slideshow__imgs" alt="Aangepaste thema's" />
+        <img ng-src="/intl/nl_ALL/gmail/about/themes3.jpg" class="theme3 themes-for-gmail__slideshow__imgs" alt="Aangepaste thema's" />
+        <img ng-src="/intl/nl_ALL/gmail/about/themes4.jpg" class="theme4 themes-for-gmail__slideshow__imgs" alt="Aangepaste thema's" />
+      </div>
+      <img src="/intl/nl_ALL/gmail/about/themes1.jpg" class="themes-for-gmail__placeholder" alt="Aangepaste thema's" />
+    </div>
+  </section>
+
+  <section class="scroll-target">
+    <div class="inbox-action">
+      <div class="inbox-action__copy">
+        <div class="inbox-action__copy-box">
+          <h2>Actie ondernemen vanuit de inbox</h2>
+          <div class="mobile"><pre>Volg pakketzendingen, beoordeel producten, reageer op uitnodigingen voor evenementen en nog veel meer zonder e-mails te openen. </pre></div>
+          <div class="desktop"><pre>Volg pakketzendingen, beoordeel producten, reageer op uitnodigingen voor evenementen en nog veel meer zonder e-mails te openen. </pre></div>
+        </div>
+      </div>
+      <div class="inbox-action__image mobile">
+        <img src="/intl/nl_ALL/gmail/about/take-action-mobile_2x.jpg" alt="Actie ondernemen vanuit de inbox">
+      </div>
+      <div class="inbox-action__image desktop">
+        <img src="/intl/nl_ALL/gmail/about/action-4_2x.png" alt="Actie ondernemen vanuit de inbox">
+      </div>
+    </div>
+  </section>
+
+  <section class="scroll-target flex-container feature-highlight">
+    <div class="feature-highlight-content flex-container__content">
+      <div class="feature-highlight-content__desktop">
+        <img src="/intl/nl_ALL/gmail/about/bettercompose_2x.jpg" alt="Makkelijker opstellen">
+      </div>
+      <div class="feature-highlight-content__copy">
+        <h2>Makkelijker opstellen</h2>
+        <div class="mobile"><pre>Stel nieuwe berichten op en houd tegelijk een oogje op je inbox. De opstelfunctionaliteit van Gmail is snel, gebruiksvriendelijk en biedt veel handige functies. </pre></div>
+        <div class="desktop"><pre>Stel nieuwe berichten op en houd tegelijk een oogje op je inbox. De opstelfunctionaliteit van Gmail is snel, gebruiksvriendelijk en biedt veel handige functies. </pre></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="get-custom scroll-target flex-container">
+    <div class="get-custom-for-gmail flex-container__content">
+      <h2 class="get-custom-for-gmail__title">Gmail voor het werk, aangepaste e-mail <div class='get-custom-for-gmail__title-ampersand'>en</div><div class='get-custom-for-gmail__title-and'>nog veel meer</div><br></h2>
+      <div class="mobile"><pre>Gebruik je vertrouwde Gmail, ook voor het werk. Gebruik een aangepast e-mailadres met <b>@jebedrijf.nl</b>, inclusief agenda, documenten, videovergaderingen en meer met toegang vanaf je telefoon of tablet. </pre></div>
+      <div class="desktop"><pre>Gebruik je vertrouwde Gmail, ook voor het werk. Gebruik een aangepast e-mailadres met <b>@jebedrijf.nl</b>, inclusief agenda, documenten, videovergaderingen en meer met toegang vanaf je telefoon of tablet. </pre></div>
+      <div class="get-custom-for-gmail__learn-more" data-g-label="For Work" onClick="window.location='/intl/nl/gmail/about/for-work/';">MEER INFORMATIE
+        <div class="get-custom-for-gmail__caret-learn-more"></div>
+      </div>
+      <span>
+        <a gm-utm="&utm_medium=et&utm_source=aboutgmailforworkrefresh-home" class="get-custom-for-gmail-btn" data-g-label="Create an account button" href="https://www.google.com/a/signup/u/0/?source=aboutgmail-forwork-en-row-refresh-variation-module" ng-click="homeCtrl.trackCreateForWorkAccount()" target="_blank">AAN DE SLAG</a>
+      </span>
+    </div>
+  </section>
+
+</section>
+
+<script type="text/ng-template" id="step-scroller.html">
+<div class="step-scroller">
+  <div class="dot" ng-click="scrollClick()" ng-class="{boost: (nextCount() === 0 && allLoaded()), loaded: allLoaded()}">
+    <i id="scroll-caret" class="caret" ng-class="{open: nextCount() === scrollTargetCount() - 1, closed: nextCount() !== scrollTargetCount() - 1}">&nbsp;</i>
+  </div>
+</div></script>   </main>
+ <footer>
+  <div class="standard-footer">
+    <div class="standard-footer__bar">
+
+    </div>
+    <div class="standard-footer__signature"></div>
+    <div class="standard-footer__bar__social-icons">
+      <a href="https://gmail.googleblog.com/" class="link-blogger" target="_blank"></a>
+      <a href="https://www.facebook.com/Gmail" class="link-face" target="_blank"></a>
+      <a href="https://plus.google.com/+Gmail" class="link-gplus" target="_blank"></a>
+      <a href="https://twitter.com/gmail" class="link-twitter" target="_blank"></a>
+    </div>
+    <div class="standard-footer__links">
+      <a href="/intl/nl/gmail/about/policy/" data-g-action="Our policy" data-g-event="Site Nav" data-g-label="about.html">Ons beleid</a>
+      <a href="https://support.google.com/mail/" data-g-action="Help" data-g-event="Site Nav" data-g-label="about.html">Help</a>
+      <a href="/intl/nl/gmail/about/for-work/" data-g-action="For Business" data-g-event="Site Nav" data-g-label="about.html" onClick="_gaq.push(['_trackEvent', 'Navigation', 'footer click', 'for work']);">Voor werk</a>
+      <div class="gplus"><div class="g-plusone"></div></div>
+            <script async defer src="https://apis.google.com/js/plusone.js">
+      </script>
+    </div>
+    <div class="standard-footer__bottom">
+      <div class="standard-footer__bottom__links">
+        <a href="//www.google.com?hl=nl">Google</a>
+        <a href="//www.google.com/about/?hl=nl">Over Google</a>
+        <a href="//www.google.com/policies/privacy/?hl=nl">Privacy</a>
+        <a href="//www.google.com/policies/terms/?hl=nl">Voorwaarden</a>
+      </div>
+      <div class="standard-footer__language">
+<select onchange="window.location.href = this.value" class="language">
+      <option value="/intl/am/gmail/about/"  >
+        አማርኛ
+      </option>
+      <option value="/intl/ar/gmail/about/"  >
+        العربية
+      </option>
+      <option value="/intl/az/gmail/about/"  >
+        azərbaycan dili
+      </option>
+      <option value="/intl/bg/gmail/about/"  >
+        български
+      </option>
+      <option value="/intl/bn/gmail/about/"  >
+        বাংলা
+      </option>
+      <option value="/intl/ca/gmail/about/"  >
+        català
+      </option>
+      <option value="/intl/cs/gmail/about/"  >
+        čeština
+      </option>
+      <option value="/intl/da/gmail/about/"  >
+        dansk
+      </option>
+      <option value="/intl/de/gmail/about/"  >
+        Deutsch
+      </option>
+      <option value="/intl/el/gmail/about/"  >
+        Ελληνικά
+      </option>
+      <option value="/intl/en_uk/gmail/about/"  >
+        English (United Kingdom)
+      </option>
+      <option value="/intl/en_in/gmail/about/"  >
+        English (India)
+      </option>
+      <option value="/gmail/about/"  >
+        English (United States)
+      </option>
+      <option value="/intl/es/gmail/about/"  >
+        español
+      </option>
+      <option value="/intl/es-419/gmail/about/"  >
+        español (Latinoamérica)
+      </option>
+      <option value="/intl/et/gmail/about/"  >
+        eesti
+      </option>
+      <option value="/intl/eu/gmail/about/"  >
+        euskara
+      </option>
+      <option value="/intl/fa/gmail/about/"  >
+        فارسی
+      </option>
+      <option value="/intl/fi/gmail/about/"  >
+        suomi
+      </option>
+      <option value="/intl/fil/gmail/about/"  >
+        Filipino
+      </option>
+      <option value="/intl/fr/gmail/about/"  >
+        français
+      </option>
+      <option value="/intl/gl/gmail/about/"  >
+        galego
+      </option>
+      <option value="/intl/gu/gmail/about/"  >
+        ગુજરાતી
+      </option>
+      <option value="/intl/iw/gmail/about/"  >
+        עברית (ישראל)
+      </option>
+      <option value="/intl/hi/gmail/about/"  >
+        हिन्दी
+      </option>
+      <option value="/intl/hr/gmail/about/"  >
+        hrvatski
+      </option>
+      <option value="/intl/hu/gmail/about/"  >
+        magyar
+      </option>
+      <option value="/intl/id/gmail/about/"  >
+        Indonesia
+      </option>
+      <option value="/intl/is/gmail/about/"  >
+        íslenska
+      </option>
+      <option value="/intl/it/gmail/about/"  >
+        italiano
+      </option>
+      <option value="/intl/ja/gmail/about/"  >
+        日本語
+      </option>
+      <option value="/intl/km/gmail/about/"  >
+        ខ្មែរ
+      </option>
+      <option value="/intl/kn/gmail/about/"  >
+        ಕನ್ನಡ
+      </option>
+      <option value="/intl/ko/gmail/about/"  >
+        한국어
+      </option>
+      <option value="/intl/lt/gmail/about/"  >
+        lietuvių
+      </option>
+      <option value="/intl/lv/gmail/about/"  >
+        latviešu
+      </option>
+      <option value="/intl/ml/gmail/about/"  >
+        മലയാളം
+      </option>
+      <option value="/intl/mr/gmail/about/"  >
+        मराठी
+      </option>
+      <option value="/intl/ms/gmail/about/"  >
+        Bahasa Melayu
+      </option>
+      <option value="/intl/my/gmail/about/"  >
+        ဗမာ
+      </option>
+      <option value="/intl/no/gmail/about/"  >
+        norsk bokmål
+      </option>
+      <option value="/intl/nl/gmail/about/"  selected >
+        Nederlands
+      </option>
+      <option value="/intl/pl/gmail/about/"  >
+        polski
+      </option>
+      <option value="/intl/pt_br/gmail/about/"  >
+        português (Brasil)
+      </option>
+      <option value="/intl/pt_pt/gmail/about/"  >
+        português (Portugal)
+      </option>
+      <option value="/intl/ro/gmail/about/"  >
+        română
+      </option>
+      <option value="/intl/ru/gmail/about/"  >
+        русский
+      </option>
+      <option value="/intl/sk/gmail/about/"  >
+        slovenčina
+      </option>
+      <option value="/intl/sl/gmail/about/"  >
+        slovenščina
+      </option>
+      <option value="/intl/sr/gmail/about/"  >
+        српски
+      </option>
+      <option value="/intl/sv/gmail/about/"  >
+        svenska
+      </option>
+      <option value="/intl/sw/gmail/about/"  >
+        Kiswahili
+      </option>
+      <option value="/intl/ta/gmail/about/"  >
+        தமிழ்
+      </option>
+      <option value="/intl/te/gmail/about/"  >
+        తెలుగు
+      </option>
+      <option value="/intl/th/gmail/about/"  >
+        ไทย
+      </option>
+      <option value="/intl/tr/gmail/about/"  >
+        Türkçe
+      </option>
+      <option value="/intl/uk/gmail/about/"  >
+        українська
+      </option>
+      <option value="/intl/ur/gmail/about/"  >
+        اردو
+      </option>
+      <option value="/intl/vi/gmail/about/"  >
+        Tiếng Việt
+      </option>
+      <option value="/intl/zh-CN_cn/gmail/about/"  >
+        中文 (简体, 中国)
+      </option>
+      <option value="/intl/zh-HK_hk/gmail/about/"  >
+        中文 (繁體字, 中華人民共和國香港特別行政區)
+      </option>
+      <option value="/intl/zh-TW_tw/gmail/about/"  >
+        中文 (繁體, 台灣)
+      </option>
+</select>      </div>
+    </div>
+  </div>
+</footer> 
+  <script>
+    (function() {
+      var link = null;
+      var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      var isAndroid = navigator.userAgent.toLowerCase().indexOf("android") > -1;
+      var appstoreBtn = document.getElementById('gmail-devices-appstore-button');
+      var playBtn = document.getElementById('gmail-devices-play-button');
+      var desktopBtn = document.getElementById('gmail-devices-send-button');
+      if (isiOS) {
+        link = window.chosenVariant === 1 ? 'https://stor.re/YJBB/uxcE' : 'https://itunes.apple.com/app/apple-store/id422689480?pt=9008';
+        updateBadges();
+      } else if (isAndroid) {
+        link = 'https://play.google.com/store/apps/details?id=com.google.android.gm&referrer=utm_source%3Dweb_about';
+        updateBadges();
+      } else {
+        // We are in desktop
+        if (window.chosenVariant == 1) {
+          hideButton(playBtn);
+          hideButton(appstoreBtn);
+        } else {
+          hideButton(desktopBtn);
+        }
+      }
+
+      if (link !== null) {
+        processLinks(['hero_home__link__mobile', 'gmail-nav__nav-link__get-gmail']);
+      }
+      function processLinks(classes) {
+        classes.forEach(function(selector) {
+          var nodeList = document.getElementsByClassName(selector);
+          for (var i = 0; i < nodeList.length; i++) {
+            var elem = nodeList[i];
+            elem.href = link;
+            if (window.chosenVariant !== 1) {
+              elem.href += '&ct=' + elem.dataset.pageLocation;
+            }
+            if (isiOS) {
+              elem.removeAttribute("target");
+            }
+          }
+        });
+      }
+      function updateBadges() {
+        hideButton(desktopBtn);
+        if (isiOS) {
+          if (appstoreBtn != null) {
+            appstoreBtn.removeAttribute("target");
+            if (window.chosenVariant === 1) {
+              appstoreBtn.href = link;
+            }
+          }
+          hideButton(playBtn);
+        } else {
+          hideButton(appstoreBtn);
+        }
+      }
+      function hideButton(btn) {
+        if (btn != null) { btn.style.display = 'none'; }
+      }
+    })();
+  </script>
+
+  <script src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-animate.min.js"></script>
+  <script src="/gmail/about/static/js/main.min.js"></script>
+
+  <script>
+    gmail.main();
+  </script>
+</body>
+
+</html>

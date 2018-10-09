@@ -32,3 +32,17 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+body
+{
+background-image: url("../img/Patroon d.jpg");
+background-repeat: repeat;
+}
+
+header
+{
+background-image: url("../img/Patroon a.jpg");
+background-repeat: repeat;
+background-size: 25%;
+padding: 20px 0px 30px 0px;
+}
