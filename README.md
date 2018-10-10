@@ -1,3 +1,8 @@
+#Hold Your Temper Website
+This is the repository that hosts the Hold Your Temper website.
+
+It's based on:
+
 # _Airspace_ for Jekyll
 ![screenshot](screenshots/home.png "Description goes here")
 
