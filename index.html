@@ -10,7 +10,7 @@ permalink: /
     <div class="row">
       <div class="col-lg-10 offset-md-2">
         <div class="block">
-          <h1 class="animated fadeInUp"><img src="img/Logo Groot 2.png" style="width: 500px;"></h1>
+          <h1 class="animated fadeInUp"><img src="img/logo-large-strip.png" style="width: 100%;max-width: 500px;"></h1>
           <p class="animated fadeInUp">Hold Your Temper is designed to help you understand your coworkers better.
             Get to experience their point of view by putting yourself in their shoes.</p>
         </div>
@@ -86,7 +86,7 @@ permalink: /
       <!-- .col-lg-7 close -->
       <div class="col-lg-5 col-md-12">
         <div class="block">
-          <img src="img/Poster.jpg" alt="Img">
+          <img src="img/poster.jpg" alt="Hold your Temper poster">
         </div>
       </div>
       <!-- .col-lg-5 close -->
@@ -94,130 +94,46 @@ permalink: /
   </div>
 </section>
 
-<!-- Roles Start -->
-<section id="roles">
+{% for cardset in site.data.cards %}
+<!-- {{ cardset.title }} Start -->
+<section id="{{ cardset.id }}">
   <div class="container">
     <div class="section-title row sticky-top">
       <div class="col text-center">
-        <img class="left-card" src="img/Reclamezijdes/1 - Achterzijde - Roles.jpg">
-        <img class="right-card" src="img/Reclamezijdes/1 - Achterzijde - Roles.jpg">
-        <h2>Roles</h2>
-        <p>This card tells you where in the hierarchy you fit</p>
+        <img class="left-card" src="{{ cardset.imgpath }}backside-90.jpg">
+        <img class="right-card" src="{{ cardset.imgpath }}backside-90.jpg">
+        <h2>{{ cardset.title }}</h2>
+        <p>{{ cardset.description }}</p>
       </div>
     </div>
 
     <div class="row">
-      {% for role in site.data.roles %}
-      <div class="col-xl-4 col-md-6">
-        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-          <div class="card-body d-flex flex-column align-items-start">
-            <h4 class="mb-0 text-dark">{{ role.title }}</h4>
-            <p class="card-text text-left"> {{ role.description }} </p>
+      {% for card in cardset.cards %}
+      <div class="col-lg-4 col-6 mb-4">
+        <div class="row card2 shadow-sm">
+          <div class="col-md-7 col-sm-12 card-body2">
+            <h4 class="mb-0 text-dark">{{ card.title }}</h4>
+            <p class="card-text text-left">{{ card.description }}</p>
           </div>
-          <img class="card-img-right flex-auto" data-src="holder.js/183x250?theme=thumb" alt="Thumbnail [183x250]"
-            style="width: 183px; height: 250px;" src="{{ role.image }}" alt="Card image" data-holder-rendered="true">
+          <div class="col-md-5 col-sm-12 p-0">
+            <img data-src="holder.js/183x250?theme=thumb" alt="Card type {{ cardset.id }} showing {{ card.title }}" src="{{ cardset.imgpath }}{{ card.image }}" data-holder-rendered="true">
+          </div>
         </div>
       </div>
       {% endfor %}
     </div>
   </div>
 </section>
-
-<!-- Emotions Start -->
-<section id="emotions">
-  <div class="container">
-    <div class="section-title row sticky-top">
-      <div class="col text-center">
-        <img class="left-card" src="img/Reclamezijdes/2 - Achterzijde - Emotions.jpg">
-        <img class="right-card" src="img/Reclamezijdes/2 - Achterzijde - Emotions.jpg">
-        <h2>Emotions</h2>
-        <p>This card tells you what your general mood is</p>
-      </div>
-    </div>
-    <div class="row">
-        {% for emotion in site.data.emotions %}
-        <div class="col-xl-4 col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <h4 class="mb-0 text-dark">{{ emotion.title }}</h4>
-              <p class="card-text text-left"> {{ emotion.description }} </p>
-            </div>
-            <img class="card-img-right flex-auto" data-src="holder.js/183x250?theme=thumb" alt="Thumbnail [183x250]"
-              style="width: 183px; height: 250px;" src="{{ emotion.image }}" alt="Card image" data-holder-rendered="true">
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-  </div>
-</section>
-
-<!-- Situations Start -->
-<section id="situations">
-    <div class="container">
-      <div class="section-title row sticky-top">
-        <div class="col text-center">
-            <img class="left-card" src="img/Reclamezijdes/3 - Achterzijde - Situations.jpg">
-            <img class="right-card" src="img/Reclamezijdes/3 - Achterzijde - Situations.jpg">
-            <h2>Situations</h2>
-            <p>This card explains what happened, why you are here to discuss with your coworkers</p>
-        </div>
-      </div>
-      <div class="row">
-          {% for situation in site.data.situations %}
-          <div class="col-xl-4 col-md-6">
-            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-              <div class="card-body d-flex flex-column align-items-start">
-                <h4 class="mb-0 text-dark">{{ situation.title }}</h4>
-                <p class="card-text text-left"> {{ situation.description }} </p>
-              </div>
-              <img class="card-img-right flex-auto" data-src="holder.js/183x250?theme=thumb" alt="Thumbnail [183x250]"
-                style="width: 183px; height: 250px;" src="{{ situation.image }}" alt="Card image" data-holder-rendered="true">
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-    </div>
-  </section>
-
-<!-- Interventions Start -->
-<section id="interventions">
-    <div class="container">
-      <div class="section-title row sticky-top">
-        <div class="col text-center">
-          <img class="left-card" src="img/Reclamezijdes/4 - Achterzijde - Interventions.jpg">
-          <img class="right-card" src="img/Reclamezijdes/4 - Achterzijde - Interventions.jpg">
-          <h2>Interventions</h2>
-          <p>This card overrules the situation card</p>
-        </div>
-      </div>
-      <div class="row">
-          {% for intervention in site.data.interventions %}
-          <div class="col-xl-4 col-md-6">
-            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-              <div class="card-body d-flex flex-column align-items-start">
-                <h4 class="mb-0 text-dark">{{ intervention.title }}</h4>
-                <p class="card-text text-left"> {{ intervention.description }} </p>
-              </div>
-              <img class="card-img-right flex-auto" data-src="holder.js/183x250?theme=thumb" alt="Thumbnail [183x250]"
-                style="width: 183px; height: 250px;" src="{{ intervention.image }}" alt="Card image" data-holder-rendered="true">
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-    </div>
-  </section>
+{% endfor %}
     
-  <!-- Call to action Start -->
+  <!-- Call to action Credits -->
   <section id="call-to-action">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="block">
-            <h2>Contact</h2>
-            <p>Read more about what we do and our philosophy of design. Judge for yourself
-              The work and results we&#x2019;ve achieved for other clients, and meet
-              our highly experienced Team who just love to design.</p> <a class="btn btn-secondary btn-call-to-action"
-              href="https://openstate.eu">Visit us</a>
+            <h2>Credits</h2>
+            <p>Credit text</p>
           </div>
         </div>
       </div>
@@ -229,36 +145,27 @@ permalink: /
     <div class="container">
       <div class="row">
         <div class="section-title text-center">
-          <h2>Background</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia
-            and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-            right at the coast of the Semantics</p>
+          <h2>Partners</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6">{% if site.data.funfacts.size > 0 %}
-          <div class="block">{% for ff in site.data.funfacts %}
-            <ul class="counter-box clearfix">
-              <li>
-                <div class="block"> <i class="{{ ff.icon }}"></i>
-                  <h4 class="counter">{{ ff.counter }}</h4>
-                  <span>{{ ff.text }}</span>
-                </div>
-              </li>{% endfor %}
-            </ul>
-          </div>{% endif %}</div>
-        <div class="col-lg-6">{% if site.data.testimonials.size > 0 %}
-          <div class="testimonial-carousel">
-            <div id="testimonial-slider" class="owl-carousel">{% for tm in site.data.testimonials %}
-              <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <img src="{{ tm.image }}" alt="Pepole">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
-              </div>{% endfor %}</div>
-          </div>{% endif %}</div>
+        {% for partner in site.data.partners %}
+        <div class="col-lg-4 col-6 mb-4">
+            <img src="img/logo/{{ partner.image }}" alt="{{ partner.title }}">
+        </div>
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="section-title text-center">
+          <h2>Supporters</h2>
+        </div>
+      </div>
+      <div class="row">
+        {% for supporter in site.data.supporters %}
+        <div class="col-lg-4 col-6 mb-4">
+            <img src="img/logo/{{ supporter.image }}" alt="{{ supporter.title }}">
+        </div>
+        {% endfor %}
       </div>
     </div>
   </section>

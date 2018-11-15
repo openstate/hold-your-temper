@@ -1,30 +1,30 @@
-- title: Boss
-  description: "Is in charge of the company"
-  image: img/Speelkaarten/01 - Roles - Boss.jpg
+- title: Boss lady
+  description: Is in charge of the company
+  image: role/01_boss.jpg
 - title: Manager
-  description: "Is directly responsible for the employees"
-  image: img/Speelkaarten/02 - Roles - Manager.jpg
+  description: Is directly responsible for the employees
+  image: role/02_manager.jpg
 - title: HR
-  description: "Keeps in mind the rights and wellbeing of employees"
-  image: img/Speelkaarten/03 - Roles - HR.jpg
+  description: Keeps in mind the rights and wellbeing of employees
+  image: role/03_hr.jpg
 - title: Accountant
-  description: "Ensures that the numbers add up"
-  image: img/Speelkaarten/04 - Roles - Accountant.jpg
-- title: IT-er
-  description: "Both responsible for the IT system and software"
-  image: img/Speelkaarten/05 - Roles - IT-er.jpg
+  description: Ensures that the numbers add up
+  image: role/04_accountant.jpg
+- title: IT
+  description: Both responsible for the IT system and software
+  image: role/05_it.jpg
 - title: Project-leader
-  description: "Is responsible for process management of a particular project"
-  image: img/Speelkaarten/06 - Roles - Project leader.jpg
+  description: Is responsible for process management of a particular project
+  image: role/06_project_leader.jpg
 - title: Employee
-  description: "Works on a particular project or goal"
-  image: img/Speelkaarten/07 - Roles - Employee.jpg
+  description: Works on a particular project or goal
+  image: role/07_employee.jpg
 - title: Intern
-  description: "Works at a company to learn and to assist employees"
-  image: img/Speelkaarten/08 - Roles - Intern.jpg
+  description: Works at a company to learn and to assist employees
+  image: role/08_intern.jpg
 - title: Secretary
-  description: "Does light administrative work, takes calls, makes appointments etc."
-  image: img/Speelkaarten/09 - Roles - Secretary.jpg
+  description: Does light administrative work, takes calls, makes appointments etc.
+  image: role/09_secretary.jpg
 - title: Janitor
-  description: "Makes sure the work environment is clean and safe"
-  image: img/Speelkaarten/10 - Roles - Janitor.jpg
+  description: Makes sure the work environment is clean and safe
+  image: role/10_janitor.jpg

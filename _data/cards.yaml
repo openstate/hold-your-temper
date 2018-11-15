@@ -1,0 +1,140 @@
+- title: Roles
+  description: This card tells you where in the hierarchy you fit
+  id: roles
+  imgpath: img/card/role/
+  cards:
+  - title: Boss lady
+    description: Is in charge of the company
+    image: 01_boss.jpg
+  - title: Manager
+    description: Is directly responsible for the employees
+    image: 02_manager.jpg
+  - title: HR
+    description: Keeps in mind the rights and wellbeing of employees
+    image: 03_hr.jpg
+  - title: Accountant
+    description: Ensures that the numbers add up
+    image: 04_accountant.jpg
+  - title: IT
+    description: Both responsible for the IT system and software
+    image: 05_it.jpg
+  - title: Project-leader
+    description: Is responsible for process management of a particular project
+    image: 06_project_leader.jpg
+  - title: Employee
+    description: Works on a particular project or goal
+    image: 07_employee.jpg
+  - title: Intern
+    description: Works at a company to learn and to assist employees
+    image: 08_intern.jpg
+  - title: Secretary
+    description: Does light administrative work, takes calls, makes appointments etc.
+    image: 09_secretary.jpg
+  - title: Janitor
+    description: Makes sure the work environment is clean and safe
+    image: 10_janitor.jpg
+- title: Emotions
+  description: This card tells you what your general mood is
+  id: emotions
+  imgpath: img/card/emotion/
+  cards:
+  - title: Jealous
+    description: Jealous
+    image: 11_jealous.jpg
+  - title: Proud
+    description: Proud
+    image: 12_proud.jpg
+  - title: Happy
+    description: Happy
+    image: 13_happy.jpg
+  - title: Scared
+    description: Scared
+    image: 14_scared.jpg
+  - title: Surprised
+    description: Surprised
+    image: 15_surprised.jpg
+  - title: Indifferent
+    description: Indifferent
+    image: 16_indifferent.jpg
+  - title: Enthusiastic
+    description: Enthusiastic
+    image: 17_enthusiastic.jpg
+  - title: Sad
+    description: Sad
+    image: 18_sad.jpg
+  - title: Angry
+    description: Angry
+    image: 19_angry.jpg
+  - title: Annoyed
+    description: Annoyed
+    image: 20_annoyed.jpg
+- title: Situations
+  description: This card explains what happened, why you are here to discuss with your coworkers
+  id: situations
+  imgpath: img/card/situation/
+  cards:
+  - title: Fire Alarm
+    description: Fire Alarm
+    image: 21_fire_alarm.jpg
+  - title: Deleted Files
+    description: Deleted Files
+    image: 22_deleted_files.jpg
+  - title: Impossible Deadline
+    description: Impossible Deadline
+    image: 23_impossible_deadline.jpg
+  - title: No Wi Fi
+    description: No Wi Fi
+    image: 24_no_wi_fi.jpg
+  - title: Forgotten Trash
+    description: Forgotten Trash
+    image: 25_forgotten_trash.jpg
+  - title: Clogged Toilet
+    description: Clogged Toilet
+    image: 26_clogged_toilet.jpg
+  - title: No Coffee
+    description: No Coffee
+    image: 27_no_coffee.jpg
+  - title: Office Decoration Budget
+    description: Office Decoration Budget
+    image: 28_office_decoration_budget.jpg
+  - title: Business Trip
+    description: Business Trip
+    image: 29_business_trip.jpg
+  - title: Workplace Romance
+    description: Workplace Romance
+    image: 30_workplace_romance.jpg
+- title: Interventions
+  description: This card explains what happened, why you are here to discuss with your coworkers
+  id: interventions
+  imgpath: img/card/intervention/
+  cards:
+  - title: Your Phone Rings
+    description: Your Phone Rings
+    image: 31_your_phone_rings.jpg
+  - title: Only Say Yes
+    description: Only Say Yes
+    image: 32_only_say_yes.jpg
+  - title: Promotion
+    description: Promotion
+    image: 33_promotion.jpg
+  - title: Opposite Emotions
+    description: Opposite Emotions
+    image: 34_opposite_emotions.jpg
+  - title: New Emotions
+    description: New Emotions
+    image: 35_new_emotions.jpg
+  - title: New Roles
+    description: New Roles
+    image: 36_new_roles.jpg
+  - title: Sad News
+    description: Sad News
+    image: 37_sad_news.jpg
+  - title: Extra Pressure
+    description: Extra Pressure
+    image: 38_extra_pressure.jpg
+  - title: Windfall
+    description: Windfall
+    image: 39_windfall.jpg
+  - title: Time Out
+    description: Time Out
+    image: 40_time_out.jpg

@@ -1,30 +1,30 @@
-- title: Boss
-  description: "Is in charge of the company"
-  image: img/Speelkaarten/01 - Roles - Boss.jpg
-- title: Manager
-  description: "Is directly responsible for the employees"
-  image: img/Speelkaarten/02 - Roles - Manager.jpg
-- title: HR
-  description: "Keeps in mind the rights and wellbeing of employees"
-  image: img/Speelkaarten/03 - Roles - HR.jpg
-- title: Accountant
-  description: "Ensures that the numbers add up"
-  image: img/Speelkaarten/04 - Roles - Accountant.jpg
-- title: IT-er
-  description: "Both responsible for the IT system and software"
-  image: img/Speelkaarten/05 - Roles - IT-er.jpg
-- title: Project-leader
-  description: "Is responsible for process management of a particular project"
-  image: img/Speelkaarten/06 - Roles - Project leader.jpg
-- title: Employee
-  description: "Works on a particular project or goal"
-  image: img/Speelkaarten/07 - Roles - Employee.jpg
-- title: Intern
-  description: "Works at a company to learn and to assist employees"
-  image: img/Speelkaarten/08 - Roles - Intern.jpg
-- title: Secretary
-  description: "Does light administrative work, takes calls, makes appointments etc."
-  image: img/Speelkaarten/09 - Roles - Secretary.jpg
-- title: Janitor
-  description: "Makes sure the work environment is clean and safe"
-  image: img/Speelkaarten/10 - Roles - Janitor.jpg
+- title: Your Phone Rings
+  description: Your Phone Rings
+  image: intervention/31_your_phone_rings.jpg
+- title: Only Say Yes
+  description: Only Say Yes
+  image: intervention/32_only_say_yes.jpg
+- title: Promotion
+  description: Promotion
+  image: intervention/33_promotion.jpg
+- title: Opposite Emotions
+  description: Opposite Emotions
+  image: intervention/34_opposite_emotions.jpg
+- title: New Emotions
+  description: New Emotions
+  image: intervention/35_new_emotions.jpg
+- title: New Roles
+  description: New Roles
+  image: intervention/36_new_roles.jpg
+- title: Sad News
+  description: Sad News
+  image: intervention/37_sad_news.jpg
+- title: Extra Pressure
+  description: Extra Pressure
+  image: intervention/38_extra_pressure.jpg
+- title: Windfall
+  description: Windfall
+  image: intervention/39_windfall.jpg
+- title: Time Out
+  description: Time Out
+  image: intervention/40_time_out.jpg

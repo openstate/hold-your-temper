@@ -1,30 +1,30 @@
-- title: Boss
-  description: "Is in charge of the company"
-  image: img/Speelkaarten/01 - Roles - Boss.jpg
-- title: Manager
-  description: "Is directly responsible for the employees"
-  image: img/Speelkaarten/02 - Roles - Manager.jpg
-- title: HR
-  description: "Keeps in mind the rights and wellbeing of employees"
-  image: img/Speelkaarten/03 - Roles - HR.jpg
-- title: Accountant
-  description: "Ensures that the numbers add up"
-  image: img/Speelkaarten/04 - Roles - Accountant.jpg
-- title: IT-er
-  description: "Both responsible for the IT system and software"
-  image: img/Speelkaarten/05 - Roles - IT-er.jpg
-- title: Project-leader
-  description: "Is responsible for process management of a particular project"
-  image: img/Speelkaarten/06 - Roles - Project leader.jpg
-- title: Employee
-  description: "Works on a particular project or goal"
-  image: img/Speelkaarten/07 - Roles - Employee.jpg
-- title: Intern
-  description: "Works at a company to learn and to assist employees"
-  image: img/Speelkaarten/08 - Roles - Intern.jpg
-- title: Secretary
-  description: "Does light administrative work, takes calls, makes appointments etc."
-  image: img/Speelkaarten/09 - Roles - Secretary.jpg
-- title: Janitor
-  description: "Makes sure the work environment is clean and safe"
-  image: img/Speelkaarten/10 - Roles - Janitor.jpg
+- title: Fire Alarm
+  description: Fire Alarm
+  image: situation/21_fire_alarm.jpg
+- title: Deleted Files
+  description: Deleted Files
+  image: situation/22_deleted_files.jpg
+- title: Impossible Deadline
+  description: Impossible Deadline
+  image: situation/23_impossible_deadline.jpg
+- title: No Wi Fi
+  description: No Wi Fi
+  image: situation/24_no_wi_fi.jpg
+- title: Forgotten Trash
+  description: Forgotten Trash
+  image: situation/25_forgotten_trash.jpg
+- title: Clogged Toilet
+  description: Clogged Toilet
+  image: situation/26_clogged_toilet.jpg
+- title: No Coffee
+  description: No Coffee
+  image: situation/27_no_coffee.jpg
+- title: Office Decoration Budget
+  description: Office Decoration Budget
+  image: situation/28_office_decoration_budget.jpg
+- title: Business Trip
+  description: Business Trip
+  image: situation/29_business_trip.jpg
+- title: Workplace Romance
+  description: Workplace Romance
+  image: situation/30_workplace_romance.jpg
