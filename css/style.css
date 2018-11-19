@@ -145,6 +145,12 @@ padding: 20px 0px 30px 0px;
   width: 100%;
 }
 
+#call-to-action a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
 #testimonial img {
   width: 80%;
   max-height: 175px;

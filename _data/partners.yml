@@ -1,12 +1,10 @@
-- image: urban-dialogues.svg
-  title: Urban Dialogues
-- image: anschlaege.de.svg
-  title: Anschlaege
 - image: alternative-europee.svg
   title: Alternative Europee
-- image: university-of-athens.svg
-  title: Hellenic Republic National and Kapodistrian University of Athens
-- image: logo-open-state.svg
-  title: Open State Foundation
+- image: anschlaege.de.svg
+  title: Anschlaege
 - image: art-of-regeneration.svg
   title: Art of Regeneration
+- image: university-of-athens.svg
+  title: Hellenic Republic National and Kapodistrian University of Athens
+- image: urban-dialogues.svg
+  title: Urban Dialogues

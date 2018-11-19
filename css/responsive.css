@@ -213,9 +213,6 @@ px      68    160    252    */
   /*--
 	call-to-action Start 
 --*/
-  #call-to-action p {
-    padding: 0px 0px 40px;
-  }
   #call-to-action .btn {
     padding: 10px 20px;
     font-size: 15px;
