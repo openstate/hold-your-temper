@@ -52,6 +52,14 @@ padding: 20px 0px 30px 0px;
   max-width: 500px;
 }
 
+#slider a > img {
+  height: 60px;
+}
+#slider a {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
 .sticky-top {
   background: rgba(255,255,255,0.8);
 }
@@ -138,6 +146,6 @@ padding: 20px 0px 30px 0px;
 }
 
 #testimonial img {
-  max-width: 100%;
-  max-height: 200px;
+  width: 80%;
+  max-height: 175px;
 }
